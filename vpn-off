@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo nordlayer disconnect
+sudo killall nordlayerd
+sudo rm /run/nordlayer/nordlayer.sock

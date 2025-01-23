@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sudo nordlayerd &
+
+sleep 5
+
+sudo nordlayer connect eng-us-nyc-ahJH447n

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#curl -H "Content-Type: application/json" -H "X-API-KEY: Ol8uRDTEUIH4SH6EtNAckpydy6FK4s9fSOlxvhBX" -H "Accept: application/json" -X POST --data @/home/jason/work-util/scan-results-payload.json http://localhost:8080/portal/case-notification
+curl -H "Content-Type: application/json" -H "X-API-KEY: Ol8uRDTEUIH4SH6EtNAckpydy6FK4s9fSOlxvhBX" -H "Accept: application/json" -X POST --data @/home/jason/work-util/scan-results-payload.json portal-backend-staging.herokuapp.com/portal/case-notification

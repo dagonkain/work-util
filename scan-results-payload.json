@@ -1,0 +1,1 @@
+{"notificationType": "New Scan Results", "message": "recon-6826", "data": "{\"scantime\": \"2024-08-16 02:50:12.000\", \"hostname\": \"VBR\", \"low\": \"0\", \"medium\": \"1\", \"high\": \"1\", \"critical\": \"0\"}"}

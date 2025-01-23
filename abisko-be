@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ~/code/abisko/backend
+../venv/bin/uvicorn app.main:app --reload

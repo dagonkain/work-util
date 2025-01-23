@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "git checkout main"
+echo "git pull"
+echo "git checkout my-branch"
+echo "git rebase main or git rebase -i main (pick)"

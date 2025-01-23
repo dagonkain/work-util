@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js accounts.service.spec.ts
