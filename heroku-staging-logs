@@ -1,0 +1,3 @@
+#!/bin/sh
+
+heroku logs --tail --app portal-backend-staging
