@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source ~/code/postproc-lambdas/.venv/bin/activate
+cd ~/code/postproc-lambdas
+python -m pytest -m dags --run-dag-tests tests

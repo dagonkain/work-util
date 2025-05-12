@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+cd ~/code/postproc-lambdas/
+export PROJECT_ROOT=$(pwd)
+cd tests/dags
+docker compose up
+
