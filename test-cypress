@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./node_modules/cypress/bin/cypress run --headless -s cypress/e2e/recon-proactive-case.cy.js
