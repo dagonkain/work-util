@@ -1,6 +1,5 @@
 #!/bin/sh
 
 clear
-#cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js case-members.controller.spec.ts
-#cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js case-members.service.spec.ts
-cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js public-downloads.service.spec.ts
+cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js cases.controller.spec.ts
+cd /home/jason/code/portal-backend && ./node_modules/env-cmd/bin/env-cmd.js -f config/.env ./node_modules/jest/bin/jest.js cases.service.spec.ts
